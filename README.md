@@ -8,7 +8,9 @@ Managing daily expenses and savings goals manually is prone to errors and lack o
 Target User
 
 The primary users are students and young professionals who need a simple yet effective tool to monitor their budget, track monthly expenditures, and manage savings targets without complex accounting knowledge.
+
 Core Features
+
 Transaction Logging: Add, edit, and delete income and expense entries with timestamps.
 Budget Categorization: Automatically sort transactions into categories like Food, Rent, Utilities, and Salary.
 Financial Summary: Generate real-time reports showing total balance, total spending, and savings progress.
@@ -23,9 +25,13 @@ Exception Handling: Utilizing try-catch blocks to handle invalid user inputs (e.
 Collections / Threads:
 Collections: Using ArrayList to dynamically store and manage the list of transactions.
 Threads: Implementing a background thread to auto-save data every few minutes to prevent data loss.
+
 Proposed Architecture Description
+
 The project follows a Modular Design pattern. The FinanceManager class acts as the controller, managing a List<Transaction>. Data is separated from logic; the Transaction hierarchy handles data, while a FileHandler class manages persistence using Java serialization or CSV formatting. The user interacts through a CLI (Command Line Interface) or a simple JavaFX/Swing GUI.
+
 How to Run
+
 Prerequisites: Ensure Java Development Kit (JDK 11 or higher) is installed.
 Clone/Download: Download the project folder and navigate to the src directory.
 Compile: Run javac Main.java in your terminal.
