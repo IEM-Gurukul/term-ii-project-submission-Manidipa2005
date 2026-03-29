@@ -35,12 +35,21 @@ Data: The app will automatically create a data.txt file in the root directory to
 Git Discipline Notes
 
 Initial commit: Project structure and README setup
+
 feat: Add abstract Transaction class and basic attributes
+
 feat: Implement Income and Expense subclasses (Inheritance)
+
 feat: Add FinanceManager logic for adding transactions
+
 fix: Add Exception Handling for invalid numeric inputs
+
 feat: Integrate ArrayList for dynamic transaction storage
+
 feat: Implement File I/O for data persistence
+
 feat: Add Polymorphic method for calculating net balance
+
 feat: Implement multi-threading for background auto-save
+
 refactor: Final UI polish and code documentation
