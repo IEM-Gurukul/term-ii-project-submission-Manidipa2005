@@ -2,9 +2,11 @@ Project Title
 FinTrack: A Robust Personal Finance Management System
 
 Problem Statement
+
 Managing daily expenses and savings goals manually is prone to errors and lack of historical insight. Most individuals struggle to categorize spending patterns or forecast future savings effectively. FinTrack addresses this by providing a digital solution to record transactions, categorize income/expenses, and visualize financial health. It aims to replace tedious manual logging with a structured, object-oriented Java application that ensures data integrity and provides real-time balance updates.
 
 Target User
+
 The primary users are students and young professionals who need a simple yet effective tool to monitor their budget, track monthly expenditures, and manage savings targets without complex accounting knowledge.
 Core Features
 Transaction Logging: Add, edit, and delete income and expense entries with timestamps.
@@ -31,6 +33,7 @@ Execute: Run java Main to launch the application.
 Data: The app will automatically create a data.txt file in the root directory to store your entries.
 
 Git Discipline Notes
+
 Initial commit: Project structure and README setup
 feat: Add abstract Transaction class and basic attributes
 feat: Implement Income and Expense subclasses (Inheritance)
